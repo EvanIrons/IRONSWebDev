@@ -1,0 +1,61 @@
+
+body {
+    text-align: center;
+  }
+  
+  .navbar-brand {
+  font-family: 'Major Mono Display', monospace;
+  
+  }
+  
+  .intro {
+    top: 0;
+    background: #eeeeee;
+    height: 100vh;
+    padding-top: 45vh;
+    /*   line-height: 100vh; */
+    /*   width:100%;
+    height:96vh;
+  border:solid; */
+  }
+  
+  h2 {
+    margin-top: 10vh;
+    padding-top: 5vh;
+  }
+  
+  .intro p {
+    color: #1C2331;
+  }
+  
+  .work {
+    margin-top: 60px;
+    min-height: 100vh;
+  }
+  
+  .work .work-header {
+    margin-top: 50px;
+    font-weight: normal;
+  }
+  
+  .project-pic {
+    width: 100%;
+  }
+  
+  #contact {
+  background: #eeeeee;
+  padding-bottom: 2vh;
+  }
+  
+  footer {
+    padding: 20px;
+    background: #22313F;
+    color: white;
+    line-height: 40px;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .project {
+      margin: 20vh 0;
+    }
+  }
